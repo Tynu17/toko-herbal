@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tynu17.github.io/toko-herbal/sitemap.xml
