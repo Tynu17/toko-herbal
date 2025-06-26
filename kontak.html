@@ -1,17 +1,15 @@
-<!-- kontak.html -->
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="title" content="Kontak - Toko Herbal Sehat Alami">
-  <meta name="description" content="Hubungi Toko Herbal Sehat Alami untuk pertanyaan dan pemesanan.">
-  <title>Kontak</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produk Herbal | Susu Kambing, Madu, VCO</title>
+  <meta name="description" content="Temukan berbagai produk herbal seperti susu kambing etawa, madu eyetama, dan VCO berkualitas.">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Kontak Kami</h1>
+    <h1>Produk Herbal Unggulan</h1>
     <nav>
       <a href="index.html">Home</a>
       <a href="produk.html">Produk</a>
@@ -19,20 +17,48 @@
       <a href="kontak.html">Kontak</a>
     </nav>
   </header>
+
   <main>
     <section>
-      <h2>Hubungi Kami</h2>
-      <p>Alamat: Jl. Sehat No. 123, Jakarta</p>
-      <p>Email: info@herbalsehat.com</p>
-      <p>WhatsApp: 0812-3456-7890</p>
-      <form action="#" method="POST">
-        <input type="text" name="nama" placeholder="Nama Anda" required>
-        <input type="email" name="email" placeholder="Email Anda" required>
-        <textarea name="pesan" placeholder="Pesan Anda" required></textarea>
-        <button type="submit">Kirim</button>
-      </form>
+      <h2>Susu Kambing Etawa</h2>
+      <img src="susu.jpg" alt="Susu Kambing Etawa untuk imunitas dan pencernaan" width="300">
+      <p>Menjaga daya tahan tubuh dan membantu pencernaan. Harga: Rp 70.000</p>
     </section>
+
+    <section>
+      <h2>Minyak VCO</h2>
+      <img src="vco.jpg" alt="Virgin Coconut Oil untuk imun dan kulit" width="300">
+      <p>Baik untuk daya tahan tubuh dan perawatan kulit. Harga: Rp 50.000</p>
+    </section>
+
+    <section>
+      <h2>Madu Eyetama</h2>
+      <img src="madu.jpg" alt="Madu herbal alami untuk mata dan stamina" width="300">
+      <p>Baik untuk mata, stamina, dan kesehatan umum. Harga: Rp 80.000</p>
+    </section>
+
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "Susu Kambing Etawa",
+      "image": "https://tynu17.github.io/toko-herbal/susu.jpg",
+      "description": "Susu kambing etawa yang baik untuk imunitas dan pencernaan.",
+      "brand": {
+        "@type": "Brand",
+        "name": "Toko Herbal Sehat Alami"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "IDR",
+        "price": "70000",
+        "availability": "https://schema.org/InStock"
+      }
+    }
+    </script>
   </main>
+
   <footer>
     <p>&copy; 2025 Toko Herbal Sehat Alami</p>
   </footer>
